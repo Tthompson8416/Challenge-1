@@ -1,6 +1,6 @@
 I created a codebase that follows accessibility standards
 so the client's site is optimized for search engines.
-I cleaned up the html coding to make it more streamlined and efficient, added some accessibility atrributes to images as well.
+I cleaned up the html code to make it more streamlined and efficient, added some accessibility atrributes to images as well.
 Some adjustments were also made to the header and links.
 
 Horiseon Adjustments
