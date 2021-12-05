@@ -1,3 +1,6 @@
+
+I have updated this.
+
 I created a codebase that follows accessibility standards
 so the client's site is optimized for search engines.
 I cleaned up the html code to make it more streamlined and efficient, added some accessibility atrributes to images as well.
