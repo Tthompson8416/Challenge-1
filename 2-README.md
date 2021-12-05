@@ -1,5 +1,5 @@
 I created a codebase that follows accessibility standards
-So the client's site is optimized for search engines
+so the client's site is optimized for search engines
 I cleaned up the html coding to make it more streamlined and efficient
 Added some accessibility atrributes to images
 Some adjustments were made made to the header and links
