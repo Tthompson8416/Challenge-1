@@ -216,14 +216,20 @@ aside {
   color: red;
 }
 
-/* Media queries for mobile devices 
+/* Media queries for mobile devices  */
 @media only screen and (max-width: 400px) {
 
     .header {
-        width: 100%;
+        width: 150%;
+        max-width: 150%;
     }
-  .search-engine-optimization {
-    background-color: #ff0000;
-  }
+
+    .header div {
+        width: 100%;
+        margin: -10px 0 0 -10px;
+        text-align: center;
+        line-height: 1.7rem;
+    }
 }
- */
+
+ 
