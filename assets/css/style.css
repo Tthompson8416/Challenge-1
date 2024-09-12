@@ -214,3 +214,11 @@ aside {
 .heart {
 color: red;
 }
+
+/* Media queries for mobile devices */
+@media only screen and (max-width: 400px) {
+    .search-engine-optimization {
+        margin-bottom: 30px;
+    }
+}
+
