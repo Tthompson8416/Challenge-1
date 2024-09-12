@@ -230,6 +230,11 @@ aside {
         text-align: center;
         line-height: 1.7rem;
     }
+
+    .hero {
+        width: 150%;
+        height: 170px;
+    }
 }
 
  
