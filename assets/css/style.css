@@ -264,6 +264,72 @@ aside {
         font-size: 1.3rem;
         margin-left: -10px;
     }
+
+    .search-engine-optimization,
+    .online-reputation-management,
+    .social-media-marketing {
+        width: 110%;
+        margin-left: -70px;
+        margin-right: -10px;
+    }
+
+    .search-engine-optimization img,
+    .online-reputation-management img,
+    .social-media-marketing img {
+        width: 170px;
+        position: relative;
+        bottom: 35px;
+        right: 35px;
+    }
+
+    .online-reputation-management img {
+        left: 35px;
+    }
+
+    .search-engine-optimization h2,
+    .online-reputation-management h2,
+    .social-media-marketing h2 {
+        font-size: 1.3rem;
+        width: 150px;
+        text-align: center;
+        position: relative;
+        left: 160px;
+        height: 70px;
+        bottom: 115px;
+    }
+
+    .online-reputation-management h2 {
+        display: flex;
+        left: 0;
+        width: 170px;
+        position: relative;
+        left: -40px;
+    }
+
+    .search-engine-optimization p,
+    .online-reputation-management p,
+    .social-media-marketing p {
+        font-size: 1.2rem;
+        width: 120%;
+        display: flex;
+        position: relative;
+        bottom: 20px;
+        right: 25px;
+        text-align: center;
+    }
+
+    .online-reputation-management p {
+        width: 130%;
+        right: 30px;
+        position: relative;
+        bottom: 110px;
+    }
+
+    .footer {
+        width: 100%;
+        position: relative;
+        left: 90px;
+    }
 }
 
  
