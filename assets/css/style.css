@@ -235,6 +235,35 @@ aside {
         width: 150%;
         height: 170px;
     }
+
+    .benefits {
+        width: 150px;
+        margin-right: -140px;
+        padding-left: 15px;
+        padding-bottom: 0px;
+    }
+
+    .benefit-lead, 
+    .benefit-brand, 
+    .benefit-cost {
+        width: 140px;
+        margin-left: -12px;
+    }
+
+    .benefit-lead img,
+    .benefit-brand img,
+    .benefit-cost img {
+        width: 100%;
+    }
+
+    .benefit-lead p,
+    .benefit-brand p,
+    .benefit-cost p {
+        width: 120%;
+        text-align: center;
+        font-size: 1.3rem;
+        margin-left: -10px;
+    }
 }
 
  
