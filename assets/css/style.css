@@ -1,14 +1,13 @@
-/* Universal Selector */
 * {
   box-sizing: border-box;
   padding: 0;
   margin: 0;
 }
-/* Body Element */
+
 body {
   background-color: #d9dcd6;
 }
-/* Header Element */
+
 .header {
   padding: 15px;
   justify-content: space-between;
@@ -61,6 +60,8 @@ p {
   background-image: url("../images/digital-marketing-meeting.jpg");
   background-size: cover;
   background-position: center;
+  background-repeat: no-repeat;
+  will-change: transform;
 }
 
 .float-left {
@@ -78,7 +79,6 @@ p {
   display: inline-block;
   margin-left: 80px;
 }
-/* Side bar - aside: Benefits - element */
 aside {
   margin-left: auto;
   text-align: left;
@@ -91,78 +91,30 @@ aside {
   background-color: #2589bd;
 }
 
-.benefit-lead {
-  color: #ffffff;
-  padding: 10px;
-}
-
-.benefit-brand {
-  margin-top: 20px;
-  color: #ffffff;
-  padding: 10px;
-}
-
+.benefit-lead, 
+.benefit-brand, 
 .benefit-cost {
-  margin-bottom: 32px;
   margin-top: 20px;
   color: #ffffff;
   padding: 10px;
 }
 
-.benefit-lead h3 {
-  margin-bottom: 10px;
-  text-align: center;
-}
-
-.benefit-brand h3 {
-  margin-bottom: 10px;
-  text-align: center;
-}
-
+.benefit-lead h3, 
+.benefit-brand h3, 
 .benefit-cost h3 {
   margin-bottom: 10px;
   text-align: center;
 }
 
-.benefit-lead img {
+.benefit-lead img, .benefit-brand img, .benefit-cost img {
   display: block;
   margin: 10px auto;
   max-width: 150px;
 }
 
-.benefit-brand img {
-  display: block;
-  margin: 10px auto;
-  max-width: 150px;
-}
-
-.benefit-cost img {
-  display: block;
-  margin: 10px auto;
-  max-width: 150px;
-}
-/* Search Engine Optimization Section */
-.search-engine-optimization {
-  margin-bottom: 20px;
-  margin-right: 300px;
-  padding: 45px;
-  height: 300px;
-  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
-  background-color: #0072bb;
-  color: #ffffff;
-}
-/* Online Reputation Section */
-.online-reputation-management {
-  margin-bottom: 20px;
-  margin-right: 300px;
-  padding: 45px;
-  height: 300px;
-  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
-  background-color: #0072bb;
-  color: #ffffff;
-}
-/* Social Media Marketing Section */
-
+/* Main content section */
+.search-engine-optimization, 
+.online-reputation-management, 
 .social-media-marketing {
   margin-bottom: 20px;
   margin-right: 300px;
@@ -172,33 +124,20 @@ aside {
   background-color: #0072bb;
   color: #ffffff;
 }
-/* Benefits Images */
-.search-engine-optimization img {
-  max-height: 200px;
-}
 
-.online-reputation-management img {
-  max-height: 200px;
-}
-
+.search-engine-optimization img, 
+.online-reputation-management img, 
 .social-media-marketing img {
   max-height: 200px;
 }
-/* Benefits Font Declarations */
-.search-engine-optimization h2 {
-  margin-bottom: 20px;
-  font-size: 36px;
-}
 
-.online-reputation-management h2 {
-  margin-bottom: 20px;
-  font-size: 36px;
-}
-
+.search-engine-optimization h2, 
+.online-reputation-management h2, 
 .social-media-marketing h2 {
   margin-bottom: 20px;
   font-size: 36px;
 }
+
 /* Footer */
 .footer {
   padding: 30px;
@@ -300,27 +239,26 @@ aside {
 
     .online-reputation-management h2 {
         display: flex;
-        left: 0;
         width: 170px;
         position: relative;
-        left: -40px;
+        left: -30px;
+        bottom: 130px;
     }
 
     .search-engine-optimization p,
     .online-reputation-management p,
     .social-media-marketing p {
         font-size: 1.2rem;
-        width: 120%;
+        width: 100%;
         display: flex;
         position: relative;
-        bottom: 20px;
-        right: 25px;
+        bottom: 10px;
+        left: 0px;
         text-align: center;
+        font-size: 1.1rem;
     }
 
     .online-reputation-management p {
-        width: 130%;
-        right: 30px;
         position: relative;
         bottom: 110px;
     }
@@ -330,6 +268,6 @@ aside {
         position: relative;
         left: 90px;
     }
-}
+  }
 
  
