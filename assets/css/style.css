@@ -652,7 +652,6 @@ aside {
 
 /* Media query for laptops */
 @media only screen and (min-width: 601px) and (max-width: 830px) {
-
   body {
     zoom: 0.8;
     transform: scale(0.8);
@@ -665,9 +664,11 @@ aside {
   }
 
   .header div {
-    margin: -10px 0 0 -5px;
     text-align: center;
     line-height: 1.7rem;
+    margin-right: 20px;
+    padding-right: 65px;
+    font-size: 1.4rem;
   }
 
   .hero {
@@ -692,14 +693,14 @@ aside {
   .benefit-lead h3,
   .benefit-brand h3,
   .benefit-cost h3 {
-    margin-left: 45px;
+    margin-left: 35px;
   }
 
   .benefit-lead img,
   .benefit-brand img,
   .benefit-cost img {
     width: 100%;
-    margin-left: 20px;
+    margin-left: 10px;
   }
 
   .benefit-lead p,
@@ -721,11 +722,7 @@ aside {
     display: block;
     margin-right: 10px;
     overflow: hidden;
-    margin-bottom: 30px
-  }
-
-  .online-reputation-management {
-    height: 250px;
+    margin-bottom: 30px;
   }
 
   .search-engine-optimization img,
@@ -738,7 +735,7 @@ aside {
   }
 
   .online-reputation-management img {
-    width: 40%; 
+    width: 40%;
     max-width: 220px;
     float: right;
     margin-left: 20px;
@@ -756,18 +753,10 @@ aside {
   .search-engine-optimization p,
   .online-reputation-management p,
   .social-media-marketing p {
-    font-size: 1rem;
+    font-size: 1.6rem;
     overflow: visible;
     margin-bottom: 10px;
-  }
-
-  .online-reputation-management h2 {
-    left: -15px;
-    width: 110%;
-  }
-  .online-reputation-management p {
-    top: auto;
-    right: auto;
+    padding-bottom: 5px;
   }
 
   .footer {
@@ -775,5 +764,128 @@ aside {
     width: 115%;
     padding: 20px;
     margin-top: 20px;
+    margin-bottom: -300px;
+  }
+}
+
+/* Media query for Desktops */
+@media only screen and (min-width: 831px) {
+  body {
+    zoom: 0.8;
+    transform: scale(0.8);
+    transform-origin: 0 0;
+  }
+
+  .header {
+    width: 125%;
+    padding-bottom: 10px;
+  }
+
+  .header h1 {
+    font-size: 4rem;
+  }
+
+  .header div {
+    text-align: center;
+    line-height: 1.7rem;
+    font-size: 1.6rem;
+    margin-left: 20px;
+    margin-top: 10px;
+  }
+
+  .hero {
+    width: 125%;
+    height: 170px;
+  }
+
+  .content {
+    margin-left: 20px;
+    width: 90%;
+  }
+
+  .benefits {
+    width: 200px;
+    float: right;
+    margin-right: -230px;
+    padding-left: 3px;
+    padding-bottom: 10px;
+    position: static;
+  }
+
+  .benefit-lead h3,
+  .benefit-brand h3,
+  .benefit-cost h3 {
+    margin-left: 35px;
+  }
+
+  .benefit-lead img,
+  .benefit-brand img,
+  .benefit-cost img {
+    width: 100%;
+    margin-left: 10px;
+  }
+
+  .benefit-lead p,
+  .benefit-brand p,
+  .benefit-cost p {
+    width: 120%;
+    text-align: center;
+    font-size: 1.1rem;
+    margin-left: -10px;
+  }
+
+  .search-engine-optimization,
+  .online-reputation-management,
+  .social-media-marketing {
+    width: 100%;
+    position: relative;
+    height: auto;
+    padding: 20px;
+    display: block;
+    margin-right: 10px;
+    overflow: hidden;
+    margin-bottom: 30px;
+  }
+
+  .search-engine-optimization img,
+  .online-reputation-management img {
+    width: 40%;
+    max-width: 220px;
+    float: left;
+    margin-right: 20px;
+    margin-bottom: 10px;
+  }
+
+  .online-reputation-management img {
+    width: 40%;
+    max-width: 220px;
+    float: right;
+    margin-left: 20px;
+    margin-bottom: 10px;
+  }
+
+  .search-engine-optimization h2,
+  .online-reputation-management h2,
+  .social-media-marketing h2 {
+    font-size: 1.8rem;
+    margin-bottom: 15px;
+    clear: none;
+  }
+
+  .search-engine-optimization p,
+  .online-reputation-management p,
+  .social-media-marketing p {
+    font-size: 1.6rem;
+    overflow: visible;
+    margin-bottom: 10px;
+    padding-bottom: 5px;
+  }
+
+  .footer {
+    clear: both;
+    width: 115%;
+    padding: 20px;
+    margin-top: 20px;
+    margin-bottom: -300px;
   }
 }
