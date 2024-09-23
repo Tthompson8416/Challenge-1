@@ -239,7 +239,7 @@ footer h2 {
   .online-reputation-management h2,
   .social-media-marketing h2 {
     font-size: 1.3rem;
-    width: 150px;
+    width: 140px;
     text-align: center;
     position: relative;
     left: 160px;
@@ -259,10 +259,10 @@ footer h2 {
   .online-reputation-management p,
   .social-media-marketing p {
     font-size: 1.2rem;
-    width: 100%;
+    width: 110%;
     display: flex;
     position: relative;
-    bottom: 10px;
+    bottom: 20px;
     left: 0px;
     text-align: center;
     font-size: 1.1rem;
