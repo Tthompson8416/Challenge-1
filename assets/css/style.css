@@ -848,9 +848,9 @@ footer h2 {
   }
 
   .search-engine-optimization img,
-  .online-reputation-management img {
+  .social-media-marketing img {
     width: 40%;
-    max-width: 220px;
+    max-width: 350px;
     float: left;
     margin-right: 20px;
     margin-bottom: 10px;
@@ -858,7 +858,7 @@ footer h2 {
 
   .online-reputation-management img {
     width: 40%;
-    max-width: 220px;
+    max-width: 350px;
     float: right;
     margin-left: 20px;
     margin-bottom: 10px;
@@ -867,7 +867,7 @@ footer h2 {
   .search-engine-optimization h2,
   .online-reputation-management h2,
   .social-media-marketing h2 {
-    font-size: 1.8rem;
+    font-size: 2.5rem;
     margin-bottom: 15px;
     clear: none;
   }
@@ -875,10 +875,11 @@ footer h2 {
   .search-engine-optimization p,
   .online-reputation-management p,
   .social-media-marketing p {
-    font-size: 1.6rem;
+    font-size: 2rem;
     overflow: visible;
     margin-bottom: 10px;
     padding-bottom: 5px;
+    padding-top: 20px;
   }
 
   footer {
