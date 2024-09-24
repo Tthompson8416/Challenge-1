@@ -151,12 +151,8 @@ footer {
   text-align: center;
 }
 
-footer h2 {
-  font-size: 20px;
-}
-
-.heart {
-  color: red;
+footer p {
+  font-size: 1.6rem;
 }
 
 /* Media queries for mobile devices  */
